@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Varela;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: beige;
+}
+
+
+.navbar{
+    height: 90px;
+    width: 100%;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    align-items: center;   
+}
+
+#logo img {
+    margin-left: 10px;
+    height:4rem;
+    cursor: pointer;
+}
+
+.icons i{
+    font-size: 1.2rem;
+    margin-top: 2px;
+}
+
+.icons p{
+    cursor: pointer;
+    font-size: 1.5rem;
+    display:inline;
+}
+
+.icons{
+    display:flex;
+    flex-direction: row;
+
+}
+
+#home{
+    margin: 0 50px 0 50px;
+}
+
+
+#history{
+    margin: 0 50px 0 50px;
+}
+
+.search_icon{
+    width: 70%;
+    background-color:whitesmoke;
+    display: flex;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+.search_icon input{
+    width: 95%;
+    height: 2rem;
+    border-radius: 2px;
+    border-style: none; 
+    outline: none;
+}
+
+.search_icon i{
+    margin-top: 5px;
+    width: 55px;
+    text-align: center;
+    font-size: 1.5rem;
+    color:black;
+}
+
+
+/* BODY */
+
+.main{
+    align-self: center;
+    height: 65vh;
+    width: 50vw;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    background-image: url("/Spotify Clone/bg.jpg");
+    background-size: cover;
+}
+
+.songList{
+    height: auto;
+    padding: 20px;
+}
+
+.songItem img{
+    height: 2rem;
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.songItem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    width: 60%;
+    background-color: white;
+    color: black;
+    margin-top: 0.1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#text{
+    margin-left: 25px;
+}
+
+#text:hover{
+    transform: scaleY(1.1)
+}
+
+#duration{
+    margin-left: 1rem;
+}
+
+#duration i{
+    margin-left: 0.5rem;
+}
+
+.songName{
+    margin-left: 1rem;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Bottom*/
+
+.footer{
+    margin-top: auto;
+    bottom: 0;
+    position:fixed;
+}
+
+
+.footer img{
+    margin-right: 3rem;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.bottom{
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom input{
+    width: 50%;
+    font-size: large;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.bottom i{
+    margin-right: 10px;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.songInfo{
+    margin-left: 2rem;
+    margin-right: 3rem;
+    font-size: larger;
+}
+
+
+
+
+
